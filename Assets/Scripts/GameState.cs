@@ -16,6 +16,14 @@ public class GameState : MonoBehaviour
     [HideInInspector] public bool endGame = false;
 
 
+    private void PauseGame()
+    {
+        if (Input.GetButtonDown("Escape"))
+        {
+            
+        }
+    }
+    
     /// <summary>
     /// Reset Paddles and ball position, pause the game until player click any button
     /// </summary>
